@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <ExtensionPackages>
+        <ExtensionPackage dependsOn="" description="" minimumThingWorxVersion="8.0.0" name="DropBoxExtensionV1" packageVersion="1.0.58" vendor="">
+            <JarResources>
+                <FileResource description="" file="dropboxextensionv1.jar" type="JAR"/>
+                <FileResource description="" file="dropbox-core-sdk-3.0.3.jar" type="JAR"/>
+            </JarResources>
+        </ExtensionPackage>
+    </ExtensionPackages>
+    <ThingPackages>
+        <ThingPackage className="DropBoxExtensionTemplate" description="" name="DropBoxExtensionTemplatePackage"/>
+    </ThingPackages>
+    <ThingTemplates>
+        <ThingTemplate aspect.isEditableExtensionObject="false" description="" name="DropBoxExtensionTemplate" thingPackage="DropBoxExtensionTemplatePackage"/>
+    </ThingTemplates>
+</Entities>
